@@ -17,7 +17,7 @@ Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies
 Basic Usage
 ===========
 
-0. Change Line 56 to a location on your computer
+0. Change Line 56 in board.py to a location on your computer
 
 1. Run ```python board.py``` to train the model. It will download & split the MNISt dataset into training and testing data. Then it will train a logistic regression model on the data. Lastly, it will test the trained model on the test set.
 
