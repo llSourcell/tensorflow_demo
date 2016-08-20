@@ -52,8 +52,8 @@ with tf.Session() as sess:
 
     
     
-    # Set the logs writer to the folder /tmp/tensorflow_logs
-    summary_writer = tf.train.SummaryWriter('/Users/jravel/Downloads/test', graph_def=sess.graph_def)
+    # Change this to a location on your computer
+    summary_writer = tf.train.SummaryWriter('/LOCATION/ON/YOUR/COMPUTER/', graph_def=sess.graph_def)
 
     # Training cycle
     for iteration in range(training_iteration):
